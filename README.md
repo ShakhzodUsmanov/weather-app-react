@@ -7,12 +7,12 @@
 * Geoapify: [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api) (for Geocoding)
 
 ## Live Link
-### This Project is deployed at: [https://weather-harshpx.vercel.app](https://weather-harshpx.vercel.app)
+### This Project is deployed at: [https://weather-shakhzod.vercel.app/](https://weather-shakhzod.vercel.app/)
 
 ## To run locally (must have Node.js and NPM installed)
 1. Clone this project on your local device & install necessary packages
 ```
-git clone 'https://github.com/harshpx/weather.git'
+git clone 'https://github.com/shakhzod/weather.git'
 cd weather
 npm i
 ```
