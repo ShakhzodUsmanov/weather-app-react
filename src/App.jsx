@@ -65,7 +65,7 @@ const App = () => {
 	const {isMobile,isTablet,isDesktop} = useWindowSize();
 
 	useLayoutEffect(()=>{
-		;(async ()=>{
+		(async ()=>{
 			try{
 				setLoading(true);
 				const weather = await getWeather(location,unit);

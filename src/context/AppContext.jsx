@@ -14,7 +14,7 @@ const AppContext = createContext({
 export const AppContextProvider = ({children})=>{
     const [unit,setUnit] = useState('C');
     const [location,setLocation] = useState(prevLocation ? 
-        prevLocation : {address:"New Delhi, Delhi, IN", lat:28.6138954, lon:77.2090057})
+        prevLocation : {address:"Uzbekistan, Tashkent, Tashkent", lat:41.2615, lon:69.2177})
     const [theme,setTheme] = useState('dark');
 
     return (
