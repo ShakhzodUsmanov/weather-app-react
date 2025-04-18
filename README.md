@@ -12,7 +12,7 @@
 ## To run locally (must have Node.js and NPM installed)
 1. Clone this project on your local device & install necessary packages
 ```
-git clone 'https://github.com/shakhzod/weather.git'
+git clone 'https://github.com/ShakhzodUsmanov/weather-app-react.git'
 cd weather
 npm i
 ```
