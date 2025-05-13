@@ -1,12 +1,10 @@
-import React, { useContext, useState } from 'react'
+import { useContext } from 'react'
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
-import useWindowSize from '../hooks/useWindowSize';
 import AppContext from '../context/AppContext';
 
 
 const CustomSwitch = ({currOption,setOption,options=[]}) => {
     const {theme} = useContext(AppContext);
-    const {isMobile} = useWindowSize();
 
     return (
         <div className={`${theme==='dark' ? 'dark' : ''}`}>

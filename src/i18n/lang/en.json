@@ -1,0 +1,22 @@
+{
+  "weather_title": "Weather",
+  "search_placeholder": "Enter a location",
+  "humidity": "Humidity",
+  "clouds": "Clouds",
+  "pressure": "Pressure",
+  "visibility": "Visibility",
+  "wind": "Wind",
+  "feels_like": "Feels Like",
+  "low": "Low",
+  "high": "High",
+  "sunrise": "Sunrise",
+  "sunset": "Sunset",
+  "clear": "Clear",
+  "forecast": "Forecast",
+  "not_found": "City not found. Please try again.",
+  "unit_celsius": "°C",
+  "unit_fahrenheit": "°F",
+  "dark_mode": "Dark",
+  "light_mode": "Light",
+  "language": "Language"
+}

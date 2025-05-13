@@ -1,19 +1,19 @@
-import React, { useContext, useEffect, useId, useState } from 'react'
+import { useContext, useState } from 'react'
 import { v4 as uuid } from 'uuid';
 import { Select, Spin, ConfigProvider } from 'antd'
 import debounce from 'lodash/debounce';
 import AppContext from '../context/AppContext'
 import { geocode, reverseGeocode } from '../api/geoCoding'
-import useWindowSize from '../hooks/useWindowSize';
 
 import { IoLocation } from "react-icons/io5";
+import { useTranslation } from 'react-i18next';
 
 const SearchBar = () => {
-    const {location,setLocation,theme} = useContext(AppContext);
+    const {setLocation,theme} = useContext(AppContext);
     const [options,setOptions] = useState([]);
     const [loading,setLoading] = useState(false);
-    const {isMobile} = useWindowSize();
     const { Option } = Select;
+    const { t } = useTranslation();
 
 
     const searchWithDebounce = debounce(async (text)=>{
@@ -76,7 +76,7 @@ const SearchBar = () => {
             <div className='flex items-center gap-1 w-full'>
                 <Select
                     showSearch
-                    placeholder="Enter a location"
+                    placeholder={t("search_placeholder")}
                     notFoundContent={loading ? <Spin size="small" /> : null}
                     filterOption={false}
                     onSearch={searchWithDebounce}

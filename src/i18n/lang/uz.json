@@ -1,0 +1,22 @@
+{
+  "weather_title": "Ob-havo",
+  "search_placeholder": "Joy nomini kiriting",
+  "humidity": "Namlik",
+  "clouds": "Bulutlar",
+  "pressure": "Bosim",
+  "visibility": "Ko'rinish",
+  "wind": "Shamol",
+  "feels_like": "His qilinadi",
+  "low": "Eng past",
+  "high": "Eng yuqori",
+  "sunrise": "Quyosh chiqishi",
+  "sunset": "Quyosh botishi",
+  "clear": "Ochiq",
+  "forecast": "Prognoz",
+  "not_found": "Shahar topilmadi. Iltimos, qayta urinib ko'ring.",
+  "unit_celsius": "°C",
+  "unit_fahrenheit": "°F",
+  "dark_mode": "Qorong'i",
+  "light_mode": "Yorug'",
+  "language": "Til"
+}

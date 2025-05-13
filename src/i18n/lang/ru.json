@@ -1,0 +1,22 @@
+{
+  "weather_title": "Погода",
+  "search_placeholder": "Введите местоположение",
+  "humidity": "Влажность",
+  "clouds": "Облака",
+  "pressure": "Давление",
+  "visibility": "Видимость",
+  "wind": "Ветер",
+  "feels_like": "Ощущается как",
+  "low": "Мин",
+  "high": "Макс",
+  "sunrise": "Восход",
+  "sunset": "Закат",
+  "clear": "Ясно",
+  "forecast": "Прогноз",
+  "not_found": "Город не найден. Попробуйте снова.",
+  "unit_celsius": "°C",
+  "unit_fahrenheit": "°F",
+  "dark_mode": "Тёмная",
+  "light_mode": "Светлая",
+  "language": "Язык"
+}
